@@ -16,16 +16,16 @@ export const Widgets = () => {
       <div css={styles.container}>
         <h2>いまどうしてる？</h2>
         {/* ライブラリを追加・追記 */}
-        <TwitterTweetEmbed tweetId='1611197775500443649' />
+        <TwitterTweetEmbed tweetId='1579746954170753024' />
 
         <TwitterTimelineEmbed
           sourceType='profile'
-          screenName='Nintendo'
+          screenName='twitterjp'
           options={{ height: 400 }}
         />
         <TwitterShareButton
-          url={'https://twitter.com/Nintendo'}
-          options={{ text: '任天堂のゲームは面白い', via: 'Nintendo' }}
+          url={'https://twitter.com/twitterjp'}
+          options={{ text: 'つぶやいてみよう', via: 'twitterjp' }}
         />
       </div>
     </div>
